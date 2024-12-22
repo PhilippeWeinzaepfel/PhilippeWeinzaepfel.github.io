@@ -513,7 +513,7 @@ def print_all_publis_html(nspaces=8):
         if isinstance(p, int):
             print(S+f'<h4>{p}</h4>')
             continue
-        print(S+f'<div class="rounded-shadow-box onepubli">')
+        print(S+f'<div class="rounded-shadow-box onepubli{" onepubli-star" if "star" in p and p["star"] else ""}">')
         print(S+f'  <div class="onepubli-image">')
         print(S+f'    <img src="assets/publications/{p["teaser"]}"/>')
         print(S+f'  </div>')

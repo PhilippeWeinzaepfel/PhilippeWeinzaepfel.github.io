@@ -102,6 +102,9 @@ h4 {
 	display: flex;
     align-items: center; /* Vertically center all children */
 }
+.onepubli-star {
+	border: 2px solid;
+}
 
 .onepubli-image {
     flex: 0 0 20%; /* Set the width to 15% of the parent */
