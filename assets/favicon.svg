@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!--<rect x="0" y="15" width="100" height="70" rx="25" ry="25" stroke="black" stroke-width="0" fill="#305ae6"/>
+  <text x="50" y="58" font-family="Verdana, sans-serif" font-size="56" fill="white" text-anchor="middle" alignment-baseline="middle">PW</text>-->
+  
+  <!-- Video Camera Body -->
+  <rect x="0" y="25" width="85" height="50" rx="5" ry="5" fill="#305ae6" stroke="black" stroke-width="0"/>
+  
+  <!-- Video Camera Lens (Trapezoid) -->
+  <polygon points="85,40 100,30 100,70 85,60" fill="#305ae6" stroke="black" stroke-width="0"/>
+
+  <!-- PW Text Inside the Camera Body -->
+  <text x="42" y="57" font-family="Bahnschrift, sans-serif" font-size="48" fill="white" text-anchor="middle" alignment-baseline="middle">
+    PW
+  </text>
+</svg>

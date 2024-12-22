@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+body {
+    max-width: 1024px; /* Restrict the maximum width to 1024 pixels */
+    margin: 0 auto;    /* Center the body horizontally on the page */
+    padding: 0;        /* Optional: Remove default padding */
+    box-sizing: border-box; /* Ensures padding and borders are included in the width */    
+	font-family: Verdana, sans-serif; /* Use Verdana font */
+}
+
+ul {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+p.no-bottom {
+    margin-bottom: 0; /* Remove top margin of the <ul> */
+	padding-bottom: 0; /* Remove top margin of the <ul> */
+}
+
+a {
+	color: #407ae6;
+}
+a:hover { 
+	color: #2b4b75;
+ }
+
+
+/* Container for the top section */
+.top-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Distribute space between left and right */
+    width: 100%; /* Full width of the parent */
+    margin: 0 auto; /* Center the container */
+    padding: 10px; /* Optional padding for spacing */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+.name {
+    font-size: 32px; /* Set font size */
+    text-align: center; /* Center the text */
+	padding-top: 20px;
+	padding-bottom: 4px;
+	margin: 0;
+	font-weight: normal;
+}
+h2 {
+	font-weight: normal;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+h4 {
+	color: #407ae6;
+}
+.logos {
+	font-size: 32px; /* Set font size */
+    text-align: center; /* Center the text */
+	margin: 0;
+}
+.bio {
+	font-size: 16px;
+}
+.left-content { /* Left div for text */
+    flex: 1; /* Take up the remaining space */
+    padding-right: 20px; /* Add spacing between text and image */
+    box-sizing: border-box; /* Ensure proper spacing */
+    font-size: 16px; /* Optional font size */
+}
+.right-image { /* Right div for the circular image */
+    flex-shrink: 0; /* Prevent shrinking below its size */
+    width: 20%; /* Use 25% of the container width */
+	min-width: 50px; 
+    position: relative; /* For better control */
+}
+.right-image img {
+    width: 100%; /* Take the full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image fits nicely within the circle */
+    /* border: 2px solid #ccc; */ /* Optional border for the circle */
+}
+.text-icon {
+	width: 1em;
+	height: 1em;
+	vertical-align: middle; /* Align with the middle of the text line */
+    fill: currentColor; /* Inherit the text color */
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+
+.rounded-shadow-box {
+	box-shadow: 0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05);
+	border-radius: .25rem;
+}
+
+.onepubli {
+	width: 100%;
+	min-height: 180px;
+	margin: 10px;
+	padding: 5px;	
+	display: flex;
+    align-items: center; /* Vertically center all children */
+}
+
+.onepubli-image {
+    flex: 0 0 20%; /* Set the width to 15% of the parent */
+    max-width: 20%; /* Ensure it doesn't grow beyond 15% */	
+}
+.onepubli-image img {
+    max-width: 100%; /* Image scales to fit the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra inline space below the image */
+	max-height: 100%;
+}
+.onepubli-infos {
+    flex: 1; /* Allow the content divs to take up remaining space */
+    margin-left: 20px; /* Add spacing between the image and content divs */
+	overflow-y: hidden;
+}
+.onepubli-title {
+	font-weight: 700;
+}
+.onepubli-infos div {
+	margin-bottom: 5px;
+}
+.onepubli-where {
+	margin-top: 15px;
+	font-style: italic;
+}
+.onepubli-tldr {
+	margin-top: 15px;
+	/*font-style: italic;*/
+}
+.onepubli-links {
+	margin-top: 15px;
+	line-height: 1.5;
+	display: flex;
+    gap: 2px 10px; /* Spacing between buttons */
+    flex-wrap: wrap; /* Allow wrapping of buttons */
+    align-items: stretch; /* Make all spans the same height */
+}
+.button-link {
+	background-color: #eeeeee;
+	border-radius: 25px;
+	padding: 2px 20px 2px 20px;
+	min-width: 20px;
+	color: #222222;
+	white-space: nowrap; /* Prevent line breaks */
+	display: inline-flex; /* Ensures wrapping and block-like behavior */
+	/*height: 25px;*/
+}
+.button-link:hover {
+	background-color: #bbbbbb;
+}
+.button-link a, .button-link a:visited, .button-link a:focus {
+	text-decoration: none;
+	color: inherit;
+}
+.button-link-icon {
+	width: 1.5em;
+	height: 1.5em;
+	vertical-align: middle; /* Align with the middle of the text line */
+    fill: currentColor; /* Inherit the text color */
+	padding-right: 5px;
+	margin-left: -5px;
+}
