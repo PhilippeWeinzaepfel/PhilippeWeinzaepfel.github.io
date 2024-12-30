@@ -8,7 +8,7 @@ publication_list = [
         'teaser': 'mast3rsfm.jpg',
         'title': 'MASt3R-SfM: a Fully-Integrated Solution for Unconstrained Structure-from-Motion',
         'authors': 'Bardienus Duisterhof, Lojze Zust, Philippe Weinzaepfel, Vincent Leroy, Yohann Cabon, Jerome Revaud',
-        'where': '3DV 2025',
+        'where': '3DV 2025 (oral)',
         'arxiv': 'https://arxiv.org/abs/2409.19152',
         'github': 'https://github.com/naver/mast3r',
         'tldr': 'Scaling MASt3R to large image collections thanks to using the encoder features for retrieval and a sparse alignment formulation.',
@@ -21,7 +21,7 @@ publication_list = [
         'authors': 'Romain Brégier, Fabien Baradel, Thomas Lucas, Salma Galaaoui, Matthieu Armando, Philippe Weinzaepfel, Grégory Rogez',
         'where': 'arXiv 2024',
         'arxiv': 'https://arxiv.org/abs/2412.13058',
-        'tldr': 'A multi-person human mesh recovery method that outputs a joint parametric distribution over likely poses, body shapes, intrinsics and distances to the camera, using a Bayesian network',
+        'tldr': 'A multi-person human mesh recovery method that outputs a joint parametric distribution over likely poses, body shapes, intrinsics and distances to the camera, using a Bayesian network.',
     },
 	{
 		'teaser': 'MultiHMR.gif',
