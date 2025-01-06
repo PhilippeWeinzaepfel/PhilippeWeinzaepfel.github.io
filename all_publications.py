@@ -519,7 +519,7 @@ def print_all_publis_html(nspaces=8):
         print(S+f'  </div>')
         print(S+f'  <div class="onepubli-infos">')
         print(S+f'    <div class="onepubli-title">{p["title"]}</div>')
-        print(S+f'    <div class="onepubli-author">{p["authors"].replace("é","&eacute").replace("á","&aacute")}</div>')
+        print(S+f'    <div class="onepubli-author">{p["authors"].replace("é","&eacute").replace("á","&aacute").replace("ô","&ocirc;")}</div>')
         print(S+f'    <div class="onepubli-where">{p["where"]}</div>')
         print(S+f'    <div class="onepubli-links">')
         if 'arxiv' in p:
