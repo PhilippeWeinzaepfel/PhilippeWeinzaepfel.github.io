@@ -5,6 +5,26 @@ sys.stdout.reconfigure(encoding='utf-8')
 publication_list = [
     2025,
     {
+        'teaser': 'dune.jpg',
+        'title': 'DUNE: Distilling a Universal Encoder from Heterogeneous 2D and 3D Teachers',
+        'authors': 'Mert Bulent Sariyildiz, Philippe Weinzaepfel, Thomas Lucas, Pau de Jorge, Diane Larlus, Yannis Kalantidis',
+        'where': 'CVPR 2025',
+        'arxiv': 'https://arxiv.org/abs/2503.14405',
+        'project': 'https://europe.naverlabs.com/research/publications/dune/',
+        'tldr': 'A single encoder distilled from multiple teachers: DINOv2, MASt3R and Multi-HMR, versatile enough to perform heterogeneous tasks.',
+        'star': True,
+    },
+    {
+        'teaser': 'pow3r.jpg',
+        'title': 'Pow3R: Empowering Unconstrained 3D Reconstruction with Camera and Scene Priors',
+        'authors': 'Wonbong Jang, Philippe Weinzaepfel, Vincent Leroy, Lourdes Agapito, Jerome Revaud',
+        'where': 'CVPR 2025',
+        'arxiv': 'https://arxiv.org/abs/2503.17316',
+        'project': 'https://europe.naverlabs.com/pow3r',
+        'tldr': 'Versatile integration of several camera and scene priors into DUSt3R-like approaches.',
+        'star': True,
+    },
+    {
         'teaser': 'mast3rsfm.jpg',
         'title': 'MASt3R-SfM: a Fully-Integrated Solution for Unconstrained Structure-from-Motion',
         'authors': 'Bardienus Duisterhof, Lojze Zust, Philippe Weinzaepfel, Vincent Leroy, Yohann Cabon, Jerome Revaud',
