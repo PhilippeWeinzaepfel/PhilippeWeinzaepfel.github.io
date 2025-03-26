@@ -28,7 +28,7 @@ publication_list = [
         'teaser': 'mast3rsfm.jpg',
         'title': 'MASt3R-SfM: a Fully-Integrated Solution for Unconstrained Structure-from-Motion',
         'authors': 'Bardienus Duisterhof, Lojze Zust, Philippe Weinzaepfel, Vincent Leroy, Yohann Cabon, Jerome Revaud',
-        'where': '3DV 2025 (oral)',
+        'where': '3DV 2025 (oral) Best Student Paper Award <span style="padding-left: 5px;"><svg class="button-link-icon"><use href="#winner-icon"></use></svg></span>',
         'arxiv': 'https://arxiv.org/abs/2409.19152',
         'github': 'https://github.com/naver/mast3r',
         'tldr': 'Scaling MASt3R to large image collections thanks to using the encoder features for retrieval and a sparse alignment formulation.',
@@ -530,6 +530,7 @@ def print_all_publis_html(nspaces=8):
     print('<div class="publications">')"""
     S = ' '*nspaces
     for p in publication_list:
+        if p == 2024: break
         if isinstance(p, int):
             print(S+f'<h4>{p}</h4>')
             continue
