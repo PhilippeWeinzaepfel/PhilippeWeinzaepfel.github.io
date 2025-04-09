@@ -25,6 +25,14 @@ publication_list = [
         'star': True,
     },
     {
+        'teaser': 'condimen.jpg',
+        'title': 'CondiMen: Conditional Multi-Person Mesh Recovery',
+        'authors': 'Romain Brégier, Fabien Baradel, Thomas Lucas, Salma Galaaoui, Matthieu Armando, Philippe Weinzaepfel, Grégory Rogez',
+        'where': 'CVPR Workshop 2025',
+        'arxiv': 'https://arxiv.org/abs/2412.13058',
+        'tldr': 'A multi-person human mesh recovery method that outputs a joint parametric distribution over likely poses, body shapes, intrinsics and distances to the camera, using a Bayesian network.',
+    },
+    {
         'teaser': 'mast3rsfm.jpg',
         'title': 'MASt3R-SfM: a Fully-Integrated Solution for Unconstrained Structure-from-Motion',
         'authors': 'Bardienus Duisterhof, Lojze Zust, Philippe Weinzaepfel, Vincent Leroy, Yohann Cabon, Jerome Revaud',
@@ -35,14 +43,6 @@ publication_list = [
         'star': True,
     },
     2024,
-    {
-        'teaser': 'condimen.jpg',
-        'title': 'CondiMen: Conditional Multi-Person Mesh Recovery',
-        'authors': 'Romain Brégier, Fabien Baradel, Thomas Lucas, Salma Galaaoui, Matthieu Armando, Philippe Weinzaepfel, Grégory Rogez',
-        'where': 'arXiv 2024',
-        'arxiv': 'https://arxiv.org/abs/2412.13058',
-        'tldr': 'A multi-person human mesh recovery method that outputs a joint parametric distribution over likely poses, body shapes, intrinsics and distances to the camera, using a Bayesian network.',
-    },
 	{
 		'teaser': 'MultiHMR.gif',
 		'title': 'Multi-HMR: Multi-Person Whole-Body Human Mesh Recovery in a Single Shot',
