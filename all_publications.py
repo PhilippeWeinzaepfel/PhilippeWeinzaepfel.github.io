@@ -5,6 +5,14 @@ sys.stdout.reconfigure(encoding='utf-8')
 publication_list = [
     2025,
     {
+        'teaser': 'imagenav.jpg',
+        'title': 'What does really matter in image goal navigation?',
+        'authors': 'Gianluca Monaci, Philippe Weinzaepfel, Christian Wolf',
+        'where': 'arXiv 2025',
+        'arxiv': 'https://arxiv.org/abs/2507.01667',
+        'tldr': 'Extensive evaluation of the visual module in ImageNav: in the realistic setting without the sliding option of the Habitat simulator, early/cross-attention fusion and pre-training are important.',
+    },
+    {
         'teaser': 'dune.jpg',
         'title': 'DUNE: Distilling a Universal Encoder from Heterogeneous 2D and 3D Teachers',
         'authors': 'Mert Bulent Sariyildiz, Philippe Weinzaepfel, Thomas Lucas, Pau de Jorge, Diane Larlus, Yannis Kalantidis',
@@ -529,8 +537,8 @@ def print_all_publis_html(nspaces=8):
     print('<body>')
     print('<div class="publications">')"""
     S = ' '*nspaces
-    for p in publication_list:
-        if p == 2024: break
+    for i,p in enumerate(publication_list):
+        if i == 2: break
         if isinstance(p, int):
             print(S+f'<h4>{p}</h4>')
             continue
