@@ -5,6 +5,22 @@ sys.stdout.reconfigure(encoding='utf-8')
 publication_list = [
     2025,
     {
+        'teaser': 'hamst3r.gif', # ffmpeg.exe -i .\hamst3r.mp4 -t 2 -vf "fps=10,scale=240:-1:flags=lanczos" hamst3r.gif
+        'title': 'HAMSt3R: Human-Aware Multi-view Stereo 3D Reconstruction',
+        'authors': 'Sara Rojas, Matthieu Armando, Bernard Ghamen, Philippe Weinzaepfel, Vincent Leroy, Gregory Rogez', 
+        'where': 'ICCV 2025',
+        'arxiv': 'https://arxiv.org/abs/2508.16433',
+        'tldr': 'Dense 3D pointmap regression with human semantic information: extension of DUSt3R with DUNE encoder and additional regression heads for human segmentation and DensePose.',
+    },
+    {
+        'teaser': 'host3r.gif', # ffmpeg -i host3r.mp4 -t 10 -vf "crop=704:879:1129:79,setpts=0.5*PTS,fps=10,scale=240:-1:flags=lanczos,palettegen" palette.png; ffmpeg -i host3r.mp4 -i palette.png -t 10 -lavfi "crop=704:879:1129:79,setpts=0.5*PTS,fps=5,scale=240:-1:flags=lanczos  [x]; [x][1:v] paletteuse=dither=bayer:bayer_scale=5" host3r.gif
+        'title': 'HOSt3R: Keypoint-free Hand-Object 3D Reconstruction from RGB images',
+        'authors': 'Anilkumar Swamy, Vincent Leroy, Philippe Weinzaepfel, Jean-Sébastien Franco, Grégory Rogez',
+        'where': 'ICCVW 2025',
+        'arxiv': 'https://arxiv.org/abs/2508.16465',
+        'tldr': 'Leveraging a DUSt3R-like method trained on hand-object data to better estimate rigid transformation for two-stage detailed hand-object reconstruction.',
+    },    
+    {
         'teaser': 'imagenav.jpg',
         'title': 'What does really matter in image goal navigation?',
         'authors': 'Gianluca Monaci, Philippe Weinzaepfel, Christian Wolf',
@@ -538,7 +554,7 @@ def print_all_publis_html(nspaces=8):
     print('<div class="publications">')"""
     S = ' '*nspaces
     for i,p in enumerate(publication_list):
-        if i == 2: break
+        if i == 3: break
         if isinstance(p, int):
             print(S+f'<h4>{p}</h4>')
             continue
