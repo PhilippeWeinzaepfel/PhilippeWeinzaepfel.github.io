@@ -5,6 +5,15 @@ sys.stdout.reconfigure(encoding='utf-8')
 publication_list = [
     2025,
     {
+        'teaser': 'kinaema.jpg',
+        'title': 'Kinaema: A recurrent sequence model for memory and pose in motion',
+        'authors': 'Mert Bulent Sariyildiz, Philippe Weinzaepfel, Guillaume Bono, Gianluca Monaci, Christian Wolf', 
+        'where': 'NeurIPS 2025',
+        'arxiv': 'https://arxiv.org/abs/2510.20261',
+        'project': 'https://europe.naverlabs.com/kinaema',
+        'tldr': 'Recurrent model for robotics that builds a latent memory of a potentially large scene by integrating a stream of visual observations while moving.',
+    },
+    {
         'teaser': 'hamst3r.gif', # ffmpeg.exe -i .\hamst3r.mp4 -t 2 -vf "fps=10,scale=240:-1:flags=lanczos" hamst3r.gif
         'title': 'HAMSt3R: Human-Aware Multi-view Stereo 3D Reconstruction',
         'authors': 'Sara Rojas, Matthieu Armando, Bernard Ghamen, Philippe Weinzaepfel, Vincent Leroy, Gregory Rogez', 
