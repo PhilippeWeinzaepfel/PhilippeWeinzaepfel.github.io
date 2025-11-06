@@ -3,7 +3,26 @@ sys.stdin.reconfigure(encoding='utf-8')
 sys.stdout.reconfigure(encoding='utf-8')
 
 publication_list = [
+    2026,
+    {
+        'teaser': 'imagenav.jpg',
+        'title': 'What does really matter in image goal navigation?',
+        'authors': 'Gianluca Monaci, Philippe Weinzaepfel, Christian Wolf',
+        'where': '3DV 2026 (oral)',
+        'arxiv': 'https://arxiv.org/abs/2507.01667',
+        'tldr': 'Extensive evaluation of the visual module in ImageNav: in the realistic setting without the sliding option of the Habitat simulator, early/cross-attention fusion and pre-training are important.',
+    },
     2025,
+    {
+        'teaser': 'anny.jpg',
+        'title': 'Human Mesh Modeling for Anny Body',
+        'authors': 'Romain Brégier, Guénolé Fiche, Laura Bravo-Sánchez, Thomas Lucas, Matthieu Armando, Philippe Weinzaepfel, Grégory Rogez, Fabien Baradel',
+        'where': 'arXiv 2025',
+        'arxiv': 'https://arxiv.org/abs/2511.03589',
+        'github': 'https://github.com/naver/anny',
+        'tldr': 'Anny is a differentiable human body mesh model which can represent a large variety of human body shapes, from infants to elders, using a common topology and parameter space',
+        'star': True,
+    },
     {
         'teaser': 'kinaema.jpg',
         'title': 'Kinaema: A recurrent sequence model for memory and pose in motion',
@@ -29,14 +48,6 @@ publication_list = [
         'arxiv': 'https://arxiv.org/abs/2508.16465',
         'tldr': 'Leveraging a DUSt3R-like method trained on hand-object data to better estimate rigid transformation for two-stage detailed hand-object reconstruction.',
     },    
-    {
-        'teaser': 'imagenav.jpg',
-        'title': 'What does really matter in image goal navigation?',
-        'authors': 'Gianluca Monaci, Philippe Weinzaepfel, Christian Wolf',
-        'where': 'arXiv 2025',
-        'arxiv': 'https://arxiv.org/abs/2507.01667',
-        'tldr': 'Extensive evaluation of the visual module in ImageNav: in the realistic setting without the sliding option of the Habitat simulator, early/cross-attention fusion and pre-training are important.',
-    },
     {
         'teaser': 'dune.jpg',
         'title': 'DUNE: Distilling a Universal Encoder from Heterogeneous 2D and 3D Teachers',
@@ -563,7 +574,7 @@ def print_all_publis_html(nspaces=8):
     print('<div class="publications">')"""
     S = ' '*nspaces
     for i,p in enumerate(publication_list):
-        if i == 3: break
+        if i == 4: break
         if isinstance(p, int):
             print(S+f'<h4>{p}</h4>')
             continue
