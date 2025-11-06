@@ -14,7 +14,7 @@ publication_list = [
     },
     2025,
     {
-        'teaser': 'anny.jpg',
+        'teaser': 'Anny.jpg',
         'title': 'Human Mesh Modeling for Anny Body',
         'authors': 'Romain Brégier, Guénolé Fiche, Laura Bravo-Sánchez, Thomas Lucas, Matthieu Armando, Philippe Weinzaepfel, Grégory Rogez, Fabien Baradel',
         'where': 'arXiv 2025',
