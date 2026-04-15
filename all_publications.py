@@ -5,6 +5,14 @@ sys.stdout.reconfigure(encoding='utf-8')
 publication_list = [
     2026,
     {
+        'teaser': 'modelmerging_tap.jpg',
+        'title': 'Task Alignment: A simple and effective proxy for model merging in computer vision',
+        'authors': 'Pau de Jorge, César Roberto de Souza, Björn Michele, Mert Bülent Sarıyıldız, Philippe Weinzaepfel, Florent Perronnin, Diane Larlus, Yannis Kalantidis',
+        'where': 'arXiv 2026',
+        'arxiv': 'https://arxiv.org/abs/2604.12935',
+        'tldr': 'A study of model merging beyond the frozen decoder setup with CLIP including dense vision tasks as well as LiDAR.',
+    },
+    {
         'teaser': 'imagenav.jpg',
         'title': 'What does really matter in image goal navigation?',
         'authors': 'Gianluca Monaci, Philippe Weinzaepfel, Christian Wolf',
