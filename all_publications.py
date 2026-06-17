@@ -5,6 +5,17 @@ sys.stdout.reconfigure(encoding='utf-8')
 publication_list = [
     2026,
     {
+        'teaser': 'multihmr2.gif',
+        'title': 'Multi-HMR 2: Multi-Person Camera-Centric Human Detection, Mesh Recovery and Tracking',
+        'authors': 'Guénolé Fiche, Philippe Weinzaepfel, Romain Brégier, Fabien Baradel',
+        'where': 'arXiv 2026',
+        'arxiv': 'https://arxiv.org/abs/2606.14841',
+        'github': 'https://github.com/naver/multi-hmr2',
+        'demo': 'https://anny-demo.europe.naverlabs.com/stream/',
+        'tldr': 'A simple yet robust DETR-based framework for Multi-person Camera-centric Human Detection, Mesh Recovery, and Tracking',
+        'star': True,
+    },
+    {
         'teaser': 'modelmerging_tap.jpg',
         'title': 'Task Alignment: A simple and effective proxy for model merging in computer vision',
         'authors': 'Pau de Jorge, César Roberto de Souza, Björn Michele, Mert Bülent Sarıyıldız, Philippe Weinzaepfel, Florent Perronnin, Diane Larlus, Yannis Kalantidis',
