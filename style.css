@@ -98,14 +98,15 @@ h4 {
 .onepubli {
 	width: 100%;
 	min-height: 180px;
-	margin: 10px;
+	margin: 8px;
 	padding: 5px;	
 	display: flex;
     align-items: center; /* Vertically center all children */
-	text-align: center;
+	border: 1px solid;
+	/*border-color: #CCCCCC;*/
 }
 .onepubli-star {
-	border: 2px solid;
+	border: 3px solid;
 }
 
 .onepubli-image {
