@@ -5,6 +5,14 @@ sys.stdout.reconfigure(encoding='utf-8')
 publication_list = [
     2026,
     {
+        'teaser': 'chimera.jpg',
+        'title': 'Compressing Observation History into Agent Memory: Distilling Transformers into Recurrent Transformers',
+        'authors': 'Philippe Weinzaepfel, Christian Wolf, Mert Bülent Sariyildiz, Guillaume Bono, Gianluca Monaci',
+        'where': 'arXiv 2026',
+        'arxiv': 'https://arxiv.org/abs/2606.21562',
+        'tldr': 'A distillation approach that transfers the compression strategy of a classical full-history transformer to a recurrent variant',
+    },
+    {
         'teaser': 'multihmr2.gif',
         'title': 'Multi-HMR 2: Multi-Person Camera-Centric Human Detection, Mesh Recovery and Tracking',
         'authors': 'Guénolé Fiche, Philippe Weinzaepfel, Romain Brégier, Fabien Baradel',
