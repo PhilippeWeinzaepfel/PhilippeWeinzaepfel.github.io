@@ -5,12 +5,21 @@ sys.stdout.reconfigure(encoding='utf-8')
 publication_list = [
     2026,
     {
+        'teaser': 'spar3s.jpg',
+        'title': 'Sparse Auto-Regressive Modeling for Scene Generation from Multi-View Images',
+        'authors': 'Thomas Lucas, Maxime Pietrantoni, Philippe Weinzaepfel, Wonjune Cho, Bardienus Pieter Duisterhof, Vincent Leroy, Jerome Revaud',
+        'where': 'ECCV 2026',
+        'arxiv': 'https://arxiv.org/abs/2609.03931',
+        'tldr': ' A sparse voxel-aligned 3D latent generative model for conditional scene completion',
+    },
+    {
         'teaser': 'chimera.jpg',
         'title': 'Compressing Observation History into Agent Memory: Distilling Transformers into Recurrent Transformers',
         'authors': 'Philippe Weinzaepfel, Christian Wolf, Mert Bülent Sariyildiz, Guillaume Bono, Gianluca Monaci',
         'where': 'arXiv 2026',
         'arxiv': 'https://arxiv.org/abs/2606.21562',
         'tldr': 'A distillation approach that transfers the compression strategy of a classical full-history transformer to a recurrent variant',
+        'star': True,
     },
     {
         'teaser': 'multihmr2.gif',
