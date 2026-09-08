@@ -5,6 +5,16 @@ sys.stdout.reconfigure(encoding='utf-8')
 publication_list = [
     2026,
     {
+        'teaser': 'blast3r.jpg',
+        'title': 'BLASt3R: Bundle Adjustment of Any Image Set with Multi-View Matching and Monocular Priors',
+        'authors': 'Vincent Leroy, Philippe Weinzaepfel, Lojze Zust, Yohann Cabon, Jérome Revaud',
+        'where': 'ECCV 2026',
+        'arxiv': 'https://arxiv.org/abs/2609.05210',
+        'github': 'https://github.com/naver/blast3r',
+        'tldr': 'Unifysing SfM/SLAM with a Multi-view Matcher + Adjustable Depths Prediction + Generalized Bundle Adjustment',
+        'star': True,
+    },
+    {
         'teaser': 'spar3s.jpg',
         'title': 'Sparse Auto-Regressive Modeling for Scene Generation from Multi-View Images',
         'authors': 'Thomas Lucas, Maxime Pietrantoni, Philippe Weinzaepfel, Wonjune Cho, Bardienus Pieter Duisterhof, Vincent Leroy, Jerome Revaud',
