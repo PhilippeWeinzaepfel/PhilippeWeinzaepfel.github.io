@@ -24,7 +24,7 @@ publication_list = [
     },
     {
         'teaser': 'chimera.gif',
-        'title': 'Compressing History into Memory: Distilling Transformers into Recurrent Transformers',
+        'title': 'Supervising Recurrent Vision Transformers from Bottlenecked Context',
         'authors': 'Philippe Weinzaepfel*, Christian Wolf*, Mert Bülent Sariyildiz, Guillaume Bono, Gianluca Monaci',
         'where': 'arXiv 2026',
         'arxiv': 'https://arxiv.org/abs/2606.21562',
